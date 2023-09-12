@@ -1,0 +1,441 @@
+
+
+
+50
+6
+
+유니티에서 서버에 nodejs로 배포하는거 해보려고 하는데 포트 몇번으로 진행할까요?
+
+
+
+접속 정보 ( 프론트 웹 정보 : 211.110.229.239:80 )
+host: lkt0dev00.cafe24.com
+id: root
+pw: 1010qpqp!3M
+
+## 1. 프로젝트 경로 이동
+> cd /var/www/web/HY_WCS_UI/
+
+## 2. git pull
+> git fetch --all
+> git pull origin dev
+> git reset --hard origin/dev   // conflict 날때만 합니다
+
+## 3. 기존 빌드폴더 삭제
+> rm -r dist/
+
+## 추가 된 npm 있을때만 실행하면 됩니다.
+> sudo npm install
+
+## 4. 빌드 배포
+> sudo npm run build:envDev
+
+
+
+새로운 오브젝트 발견시마다 추가 및 체크
+
+오브젝트별 엑셀 정리
+
+
+
+
+
+
+
+
+euc 출력버튼 아래로
+
+
+대메뉴 포함
+
+
+
+248, 177, 36
+
+
+사용자관리, 메뉴관리, 권한관리 컬럼들 모두 가운데 정렬
+
+
+
+
+컨베이어 데이터 상세정의
+컨베이어 모델 적용
+컨베이어 모델 적용및 틀어진 부분 수정
+컨베이어, 박스 에니메이션 적용
+컨베이어, 박스 에니메이션 적용및 
+
+
+컨베이어 데이터 상세정의	1층
+컨베이어 모델 적용	1층
+컨베이어 모델 적용및 틀어진 부분 수정	1층
+에니메이션동선 적용및 테스트	1층
+	
+	
+약속된 카메라동선및 에니메이션 구현	1층
+
+
+1. 1층 컨베이어 비쥬얼 모두 적용
+2. 상품(박스)이동 컨베이어 임의 동선 이동 에니메이션 적용
+3. 약속된 카메라움직임으로 동영상 녹화
+
+
+
+
+컨베이어 데이터 상세정의
+컨베이어 모델 적용
+컨베이어 모델 적용및 틀어진 부분 수정
+에니메이션동선 적용및 테스트
+
+
+약속된 카메라동선및 에니메이션 구현
+
+
+메뉴 관련 시안과 동일하게 같도록 수정(흰색영역은 없어도됨 일단)
+
+10.82.28.132
+10.82.29.65
+
+104350000
+107650000
+
+
+
+212000000
+
+
+212000000
+
+
+
+화면 축소시 검색조건 줄일지 2줄할지
+
+
+
+자동로그인 추가
+메뉴 대메뉴 안보임
+메뉴 하얀 
+작업현황 짤리는 UI있음
+테스트 로딩팝업 제거
+euc팝업 실행할때 실행 텍스트로 변경
+
+검수
+박스바코드 -> 바코드 이름변경
+일괄 건벌 선택
+
+입력란 뒤쪽 선택하면 포커스 안됨
+
+탭 다껏을때 대시보드탭 안나옴
+
+작업현황 상세 컬럼들 가운데 넣기
+
+웹 캐시 제한 확인
+
+
+
+목요일 wms결정
+
+
+66243280
+
+
+리비아오 인터페이스 개발 진행 - T-Sorter 기능 점검 : 중국 출장 시 PDA 기능 체크 必 : 해당 기능에 따라 WCS에 추가 개발 여부 판단 가능
+WMS 인터페이스 개발 진행  - 협의 지연으로 개발 지연 예상 
+
+
+
+
+
+
+리비아오 인터페이스 개발 진행 - T-Sorter 기능 점검 : 중국 출장 시 PDA 기능 체크 必 : 해당 기능에 따라 WCS에 추가 개발 여부 판단 가능
+WMS 인터페이스 개발 진행  
+- 협의 지연으로 개발 지연 예상 
+
+
+
+
+
+로직처리, 컬럼설명등 미비사항은 아래와 같습니다.
+- 보고서: 47page~
+- EUC: 52page~
+- 검수: 57page~
+
+
+
+ㅅ
+
+
+
+
+
+조회 : 작업 정보 조회
+작업계획 : 
+작업지시 : 선택된 작업을 시작
+작업완료 : 선택된 작업을 완료
+
+조회 : 작업 정보 조회
+작업계획 : 
+작업지시 : 선택된 작업을 시작
+작업완료 : 선택된 작업을 완료
+
+
+아래와 같고 빅솔론은 직접 테스트 완료하였고 지브라는 장비가 없어 테스트하지는 못했습니다.
+
+1. 빅솔론
+- 요구사항
+OS: window 계열
+소프트웨어: Software_BIXOLON_Web_Print_SDK_Setup 설치 필요
+
+- 웹 프링팅이 가능한 기종
+SLP-TX400 / SLP-TX403
+SLP-TX420 / SLP-TX423
+SLP-TX220 / SLP-TX223
+SLP-DX420 / SLP-DX423
+SLP-DX220 / SLP-DX223
+SLP-DL410 / SLP-DL413
+XT5-40(RFID) / XT5-43(RFID) / XT5-46(RFID)
+XL5-40CT / XL5-43CT
+XD5-40d / XD5-43d
+XD5-40t (RFID)/ XD5-43t(RFID)
+SRP-S3000_LABEL
+XQ-840 / 843(Android only)
+XD3-40d XD3-40t
+SRP-E770III
+XT3-40 XT3-43
+XF3-40
+
+
+
+2. 지브라
+- 요구사항
+OS: window, MacOS, android
+소프트웨어: zebra-browser-print-windows 설치 필요
+(Chrome의 경우 zebra 브라우저 확장프로그램설치하면 무설치 출력 가능)
+
+- 웹 프링팅이 가능한 기종
+QLn 시리즈
+ZT200™ 시리즈
+ZT400™ 시리즈
+ZT510
+ZT600 시리즈
+ZD500™ 시리즈
+ZD400™ 시리즈
+LP2824+
+GK420
+GX420
+
+
+상품정보, 로케이션정보, 사용자정보, 메뉴정보, 권한정보
+작업지시, 주문별작업현황, 상품별작업현황, 설비별작업현황, 보고서, EUC, 검수
+작업내역, 주문별로그, 설비별로그
+
+
+
+아래와 같습니다.
+*빅솔론은 직접 테스트 완료하였고 지브라는 장비가 없어 테스트하지는 못했습니다.
+
+1. 빅솔론
+- 요구사항
+OS: window 계열
+소프트웨어: Software_BIXOLON_Web_Print_SDK_Setup 설치 필요
+
+- 웹 프린팅 가능한 기종
+SLP-TX400 / SLP-TX403
+SLP-TX420 / SLP-TX423
+SLP-TX220 / SLP-TX223
+SLP-DX420 / SLP-DX423
+SLP-DX220 / SLP-DX223
+SLP-DL410 / SLP-DL413
+XT5-40(RFID) / XT5-43(RFID) / XT5-46(RFID)
+XL5-40CT / XL5-43CT
+XD5-40d / XD5-43d
+XD5-40t (RFID)/ XD5-43t(RFID)
+SRP-S3000_LABEL
+XQ-840 / 843(Android only)
+XD3-40d XD3-40t
+SRP-E770III
+XT3-40 XT3-43
+XF3-40
+
+-----------------------------------------------------
+
+2. 지브라
+- 요구사항
+OS: window, MacOS, android
+소프트웨어: zebra-browser-print-windows 설치 필요
+(Chrome의 경우 zebra 브라우저 확장프로그램을 설치하면 무설치 출력 가능)
+
+- 웹 프링팅이 가능한 기종
+QLn 시리즈
+ZT200™ 시리즈
+ZT400™ 시리즈
+ZT510
+ZT600 시리즈
+ZD500™ 시리즈
+ZD400™ 시리즈
+LP2824+
+GK420
+GX420
+
+
+2100
+
+
+USB
+회로망
+애플리케이션은 다음 운영 체제 및 브라우저를 지원합니다.
+
+윈도우 7, 윈도우 10 및 Mac OSX
+Internet Explorer v11 이상, Chrome v51 이상 또는 Safari
+
+
+const label = '^XA\n^FO50,50^A0N,50,50^FDHello, World!^FS\n^FO50,150^BY3^B3N,N,100,Y^FD123456789^FS\n^XZ';
+
+fetch('http://printer-ip-address', {
+  method: 'POST',
+  body: label
+})
+.then(response => {
+  console.log('Label printed successfully!');
+})
+.catch(error => {
+  console.error('Error printing label:', error);
+});
+
+
+3월 14일	컨베이어 데이터 상세정의
+3월 15일	컨베이어 데이터 상세정의
+3월 16일	컨베이어 모델 적용및 틀어진 부분 수정
+3월 17일	에니메이션동선 적용및 테스트
+3월 18일	
+3월 19일	
+3월 20일	약속된 카메라동선및 에니메이션 구현
+
+
+excel 
+15668788681843
+
+화면개발 진행하였고 디자인 대기중 입니다.
+
+
+- 레포트는 데이터 없어도 일단 샘플양식 그대로 출력한 상태로 금일 배포 예정입니다.
+
+- 배포 라이선스는 서버에서 하지 않고 프론트에서 grapecity에서 제공하는 js파일(https://cdn.grapecity.com/activereportsjs/2.latest/dist/ar-js-core.js)로 체크하는걸로 확인됬습니다.
+  내부적으로는 구매시 설정한 도메인주소와 라이선키를 확인하는걸로 예측됩니다.
+ex) GC.ActiveReports.Core.setLicenseKey("YOUR LICENSE KEY GOES HERE");
+
+
+- 모바일로 로그인 시 메뉴 박스맵핑만 나오도록
+- 로케이션, 박스바코드는 입력란이고 나머지는 입력란이 아님
+- 주문정보 관련사항 3개 같은 border 넣도록
+- 작업순서는 로케이션 스캔 -> 주문정보 출력 -> 박스바코드 스캔(맵핑완료) -> 모든 입출력란 공란으로 -> 커서는 로케이션으로
+
+
+
+In order to build a player, go to 'Player Settings...' to resolve the incompatibility between the Color Space and the current settings
+
+
+
+
+*빅솔론은 직접 테스트 완료하였고 지브라는 장비가 없어 테스트하지는 못했습니다.
+
+
+
+
+
+
+
+1. 빅솔론
+
+- 요구사항
+
+OS: window 계열
+
+소프트웨어: Software_BIXOLON_Web_Print_SDK_Setup 설치 필요
+
+
+- 웹 프린팅 가능한 기종
+
+SLP-TX400 / SLP-TX403
+
+SLP-TX420 / SLP-TX423
+
+SLP-TX220 / SLP-TX223
+
+SLP-DX420 / SLP-DX423
+
+SLP-DX220 / SLP-DX223
+
+SLP-DL410 / SLP-DL413
+
+XT5-40(RFID) / XT5-43(RFID) / XT5-46(RFID)
+
+XL5-40CT / XL5-43CT
+
+XD5-40d / XD5-43d
+
+XD5-40t (RFID)/ XD5-43t(RFID)
+
+SRP-S3000_LABEL
+
+XQ-840 / 843(Android only)
+
+XD3-40d XD3-40t
+
+SRP-E770III
+
+XT3-40 XT3-43
+
+XF3-40
+
+
+-----------------------------------------------------
+
+
+2. 지브라
+
+- 요구사항
+
+OS: window, MacOS, android
+
+소프트웨어: zebra-browser-print-windows 설치 필요
+
+(Chrome의 경우 zebra 브라우저 확장프로그램을 설치하면 무설치 출력 가능)
+
+
+- 웹 프링팅이 가능한 기종
+
+QLn 시리즈
+
+ZT200™ 시리즈
+
+ZT400™ 시리즈
+
+ZT510
+
+ZT600 시리즈
+
+ZD500™ 시리즈
+
+ZD400™ 시리즈
+
+LP2824+
+
+GK420
+
+GX420
+
+
+A01-0101
+
+
+
+작업지시-작업계획(팝업), 중분류
+추가되었습니다. 개발시 참고부탁드립니다.
+
+
+
+	
+
+죄송한데 혹시 1주일정도 빌려주실수 있는 현금좀 있으신가요? ㅎㅎ-_-;;
+4월7일에 10%더해서 드릴수 있습니다만 ㅠㅠ
+
